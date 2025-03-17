@@ -1,0 +1,189 @@
+{
+  "experiences": [
+    {
+      "date": "2024 - Present",
+      "title": "Senior Software Developer",
+      "company": "BizCommerce"
+    },
+    {
+      "date": "2016 - 2023",
+      "title": "Mid-level Software Developer",
+      "company": "BizCommerce"
+    },
+    {
+      "date": "2014 - 2016",
+      "title": "Junior Software Developer",
+      "company": "BizCommerce"
+    },
+    {
+      "date": "2012 - 2014",
+      "title": "Computer Instructor",
+      "company": "FlexComp - Professional Courses"
+    },
+    {
+      "date": "2010",
+      "title": "Computer Monitor",
+      "company": "Government of São Paulo"
+    }
+  ],
+  "certifications": {
+    "primary": [
+      {
+        "title": "Jenkins: Automate Pipelines with Code Quality and Secure Deployment",
+        "company": "Alura",
+        "issued": "Mar 2025"
+      },
+      {
+        "title": "Microservices: Exploring the Concepts",
+        "company": "Alura",
+        "issued": "Mar 2025"
+      },
+      {
+        "title": "The Complete Microservices & Event-Driven Architecture",
+        "company": "Udemy",
+        "issued": "Mar 2025"
+      },
+      {
+        "title": "Cloud: Deploy Applications on AWS",
+        "company": "Alura",
+        "issued": "Feb 2025"
+      },
+      {
+        "title": "Docker: Creating and Managing Containers",
+        "company": "Alura",
+        "issued": "Feb 2025"
+      }
+    ],
+    "more": [
+      {
+        "title": "Getting Started in Cloud: Using AWS and Exploring Cloud as a Service",
+        "company": "Alura",
+        "issued": "Feb 2025"
+      },
+      {
+        "title": "How to Deploy a Website Course",
+        "company": "Codecademy",
+        "issued": "Apr 2024"
+      },
+      {
+        "title": "SQL Queries: Advancing in MySQL",
+        "company": "Alura",
+        "issued": "Jan 2023"
+      },
+      {
+        "title": "Hexagonal Architecture Course",
+        "company": "Full Cycle",
+        "issued": "Sep 2022"
+      },
+      {
+        "title": "Magento Course - Creating Themes - Part 01",
+        "company": "School of Net",
+        "issued": "Sep 2022"
+      },
+      {
+        "title": "Firebase Authentication: Integration with Android Apps",
+        "company": "Alura",
+        "issued": "Sep 2022"
+      },
+      {
+        "title": "Terraform: Automate Cloud Infrastructure",
+        "company": "Alura",
+        "issued": "Sep 2022"
+      },
+      {
+        "title": "Microservices: Design Patterns",
+        "company": "Alura",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "Ansible: Infrastructure as Code",
+        "company": "Alura",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "Software Architecture Fundamentals Course",
+        "company": "Full Cycle",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "MVC with PHP: Understanding the Model-View-Controller Pattern",
+        "company": "Alura",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "Microservices: Design Patterns (Repeated)",
+        "company": "Alura",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "Vagrant: Managing Virtual Machines",
+        "company": "Alura",
+        "issued": "Aug 2022"
+      },
+      {
+        "title": "Software Architecture: Introduction to System Design",
+        "company": "LinkedIn",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "SOLID Express Course",
+        "company": "Full Cycle",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "Introduction to Cybersecurity",
+        "company": "Cisco",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "E-commerce Platform: Early Decisions for Your Online Store",
+        "company": "Alura",
+        "issued": "Jul 2022"
+      },
+      {
+        "title": "Continuous Integration Course",
+        "company": "Full Cycle",
+        "issued": "Apr 2021"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Epikcart",
+      "description": "An e-commerce platform for a frictionless online shopping experience.",
+      "technologies": "React • Redux • Stripe • Tailwind CSS",
+      "url": "https://github.com/bizcommerce/vindi-magento2"
+    },
+    {
+      "title": "Resume Roaster",
+      "description": "A tool to generate professional resumes using GPT-4.",
+      "technologies": "GPT-4 • React • PostgreSQL",
+      "url": "https://github.com/bizcommerce/vindi-magento2"
+    },
+    {
+      "title": "Real Estate",
+      "description": "An application for managing and listing properties.",
+      "technologies": "React.js • Redux • Tailwind CSS",
+      "url": "https://github.com/bizcommerce/vindi-magento2"
+    },
+    {
+      "title": "Consulting Finance",
+      "description": "A platform for financial advisory services.",
+      "technologies": "HTML • CSS & SCSS • Javascript",
+      "url": "https://github.com/bizcommerce/vindi-magento2"
+    },
+    {
+      "title": "devLinks",
+      "description": "A project to create a collection of useful development links.",
+      "technologies": "Next.js • Framer • Drag & Drop",
+      "url": "https://github.com/bizcommerce/vindi-magento2"
+    }
+  ],
+  "education": [
+    {
+      "date": "2014 - 2017",
+      "title": "Analysis and Systems Development",
+      "institution": "Fatec Garça"
+    }
+  ]
+}

@@ -92,6 +92,16 @@ header {
     font-size: 0.8rem;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
+}
+
+#experiences-toggle,
+#certifications-toggle {
+    background-color: transparent;
+    color: #aaa;
+    font-size: 2rem;
+    border: none;
+    margin-top: 10px;
 }
 
 /* Collapsed Content */
@@ -140,57 +150,6 @@ h2::after {
     line-height: 1.8;
 }
 
-/* Stack Section */
-.stack-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-}
-
-.stack-group {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 20px;
-    border-radius: 8px;
-    min-width: 250px;
-}
-
-.stack-group h3 {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-}
-
-.stack-items {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.icon-container {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s, filter 0.3s;
-    cursor: pointer;
-    filter: grayscale(100%);
-}
-
-.icon-container i {
-    font-size: 3rem;
-}
-
-.icon-container:hover {
-    transform: scale(1.2);
-    filter: grayscale(0%);
-}
-
-.disabled {
-    opacity: 0.6;
-}
-
 /* Experiences Section */
 .experiences {
     background: rgba(255, 255, 255, 0.05);
@@ -229,8 +188,8 @@ h2::after {
     margin: 0 auto;
 }
 
-/* Skills Section */
-.skills .skills-container {
+/* Stack Section */
+.stack-container {
     display: flex;
     justify-content: center;
     gap: 40px;
@@ -239,42 +198,35 @@ h2::after {
     margin: 0 auto;
 }
 
-.skills .skill-group h3 {
+.stack-group h3 {
     margin-bottom: 10px;
 }
 
-.skills .skill-group ul {
-    list-style: none;
-    padding: 0;
+.stack-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
-.skills .skill-group li {
-    margin-bottom: 5px;
+.icon-container {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--accent-color);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s;
 }
 
-/* Testimonials Section */
-.testimonials .testimonials-container {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: left;
+.icon-container:hover {
+    transform: scale(1.2);
 }
 
-.testimonials .testimonial-item {
-    margin-bottom: 20px;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.testimonials blockquote {
-    margin: 0;
-    font-style: italic;
-}
-
-.testimonials .testimonial-author {
-    text-align: right;
-    margin-top: 10px;
-    font-weight: bold;
+.icon-container.disabled {
+    color: var(--disabled-color);
 }
 
 /* Carousel (Projects Section) */
@@ -300,9 +252,11 @@ h2::after {
 .carousel-slide {
     min-width: 250px;
     margin: 0 10px;
+    list-style: none;
 }
 
 .project-item {
+    display: block;
     background: rgba(255, 255, 255, 0.05);
     padding: 20px;
     border-radius: 8px;

@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Iago Cedran - Portfolio</title>
-    <link rel="icon" type="image/png" href="img/ring.png">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Use the LOTR ring as the site icon -->
+    <link rel="icon" href="img/lotr-ring.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
 </head>
 <body>
 <header>
@@ -21,6 +28,7 @@
 </header>
 
 <main>
+    <!-- About Me -->
     <section class="about">
         <h2>About Me</h2>
         <p>
@@ -28,162 +36,23 @@
         </p>
     </section>
 
+    <!-- Experiences -->
     <section class="experiences">
-        <h2>Experiences <button class="toggle-btn" data-target="experiences-content">Toggle</button></h2>
-        <p class="experience-summary">Resumo: Desenvolvimento full-stack, arquitetura de sistemas, liderança de equipe e metodologias ágeis.</p>
-        <div id="experiences-content">
-            <div class="experience-item">
-                <div class="experience-date">2024 - Presente</div>
-                <h3>Senior Software Developer</h3>
-                <p>BizCommerce</p>
-            </div>
-            <div class="experience-item">
-                <div class="experience-date">2016 - 2023</div>
-                <h3>Pleno Software Developer</h3>
-                <p>BizCommerce</p>
-            </div>
-            <div class="experience-item">
-                <div class="experience-date">2014 - 2016</div>
-                <h3>Junior Software Developer</h3>
-                <p>BizCommerce</p>
-            </div>
-            <div class="experience-item">
-                <div class="experience-date">2012 - 2014</div>
-                <h3>Computer Instructor</h3>
-                <p>FlexComp - Cursos Profissionalizantes</p>
-            </div>
-            <div class="experience-item">
-                <div class="experience-date">2010</div>
-                <h3>Computer Monitor</h3>
-                <p>Governo do Estado de São Paulo</p>
-            </div>
-        </div>
+        <h2>Experiences</h2>
+        <p class="experience-summary">Summary: Full-stack development, system architecture, team leadership, and agile methodologies.</p>
+        <div id="experiences-current"></div>
+        <button id="experiences-toggle" class="toggle-btn" data-target="experiences-more">&#x25BC;</button>
+        <div id="experiences-more" class="collapsed"></div>
     </section>
 
+    <!-- Certifications -->
     <section class="certifications">
-        <h2>Certificações</h2>
-        <div id="primary-certifications" class="projects-container">
-            <div class="project-item">
-                <h3>Jenkins: automatize pipelines com qualidade de código e deploy seguro</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: mar de 2025</p>
-            </div>
-            <div class="project-item">
-                <h3>Microsserviços: explorando os conceitos</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: mar de 2025</p>
-            </div>
-            <div class="project-item">
-                <h3>The Complete Microservices &amp; Event-Driven Architecture</h3>
-                <p>Empresa: Udemy</p>
-                <p>Emitido em: mar de 2025</p>
-            </div>
-            <div class="project-item">
-                <h3>Cloud: realize o deploy de aplicações na AWS</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: fev de 2025</p>
-            </div>
-            <div class="project-item">
-                <h3>Docker: criando e gerenciando containers</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: fev de 2025</p>
-            </div>
-        </div>
-        <button class="toggle-btn" data-target="more-certifications">Ver mais</button>
-        <div id="more-certifications" class="projects-container collapsed">
-            <div class="project-item">
-                <h3>Começando em Cloud: usando a AWS e explorando os recursos da nuvem como serviço</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: fev de 2025</p>
-            </div>
-            <div class="project-item">
-                <h3>How to Deploy a Website Course</h3>
-                <p>Empresa: Codecademy</p>
-                <p>Emitido em: abr de 2024</p>
-            </div>
-            <div class="project-item">
-                <h3>Consultas SQL: avançando no SQL com MySQL</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: jan de 2023</p>
-            </div>
-            <div class="project-item">
-                <h3>Curso de Arquitetura hexagonal</h3>
-                <p>Empresa: Full Cycle</p>
-                <p>Emitido em: set de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Curso de Magento - Criando temas - Pt 01</h3>
-                <p>Empresa: School of Net</p>
-                <p>Emitido em: set de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Firebase Authentication: integração com apps Android</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: set de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Terraform: automatize a infraestrutura na nuvem</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: set de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Microsserviços: padrões de projeto</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Ansible: sua infraestrutura como código</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Curso de Fundamentos da arquitetura de software</h3>
-                <p>Empresa: Full Cycle</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>MVC com PHP: entenda o padrão Model-View-Controller</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Microsserviços: padrões de projeto (repetido)</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Vagrant: gerenciando máquinas virtuais</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: ago de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Arquitetura de Software: Introdução ao Design de Sistemas</h3>
-                <p>Empresa: LinkedIn</p>
-                <p>Emitido em: jul de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Curso de SOLID Express</h3>
-                <p>Empresa: Full Cycle</p>
-                <p>Emitido em: jul de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Introduction to Cybersecurity</h3>
-                <p>Empresa: Cisco</p>
-                <p>Emitido em: jul de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Plataforma e-commerce: decisões no começo de sua loja virtual</h3>
-                <p>Empresa: Alura</p>
-                <p>Emitido em: jul de 2022</p>
-            </div>
-            <div class="project-item">
-                <h3>Curso de Integração contínua</h3>
-                <p>Empresa: Full Cycle</p>
-                <p>Emitido em: abr de 2021</p>
-            </div>
-        </div>
+        <h2>Certifications</h2>
+        <div id="certifications-grid" class="projects-container"></div>
+        <button id="certifications-toggle" class="toggle-btn" data-target="certifications-grid">&#x25BC;</button>
     </section>
 
+    <!-- My Stack (reverted to original static version) -->
     <section class="stack">
         <h2>My Stack</h2>
         <div class="stack-container">
@@ -241,7 +110,6 @@
                     <div class="icon-container">
                         <i class="devicon-mongodb-plain"></i>
                     </div>
-                    <!-- Placeholder icon for Prisma if needed -->
                     <div class="icon-container disabled">
                         <i class="devicon-graphql-plain"></i>
                     </div>
@@ -250,63 +118,28 @@
         </div>
     </section>
 
+    <!-- Projects -->
     <section class="projects">
         <h2>Projects</h2>
-        <p class="projects-description">Explore some of my selected projects below. Click on any project to learn more details.</p>
+        <p class="projects-description">
+            Explore some of my selected projects below. Click on any project to learn more details.
+        </p>
         <div class="carousel">
             <button class="carousel-control prev">&#10094;</button>
             <div class="carousel-track-container">
-                <ul class="carousel-track">
-                    <li class="carousel-slide">
-                        <a href="https://github.com/bizcommerce/vindi-magento2" target="_blank" rel="noopener" class="project-item">
-                            <h3>Epikcart</h3>
-                            <p class="project-description">Uma plataforma de e-commerce para uma experiência de compra online sem atrito.</p>
-                            <p>React • Redux • Stripe • Tailwind CSS</p>
-                        </a>
-                    </li>
-                    <li class="carousel-slide">
-                        <a href="https://github.com/bizcommerce/vindi-magento2" target="_blank" rel="noopener" class="project-item">
-                            <h3>Resume Roaster</h3>
-                            <p class="project-description">Uma ferramenta para gerar currículos profissionais utilizando GPT-4.</p>
-                            <p>GPT-4 • React • PostgreSQL</p>
-                        </a>
-                    </li>
-                    <li class="carousel-slide">
-                        <a href="https://github.com/bizcommerce/vindi-magento2" target="_blank" rel="noopener" class="project-item">
-                            <h3>Real Estate</h3>
-                            <p class="project-description">Uma aplicação para gerenciamento e listagem de imóveis.</p>
-                            <p>React.js • Redux • Tailwind CSS</p>
-                        </a>
-                    </li>
-                    <li class="carousel-slide">
-                        <a href="https://github.com/bizcommerce/vindi-magento2" target="_blank" rel="noopener" class="project-item">
-                            <h3>Consulting Finance</h3>
-                            <p class="project-description">Uma plataforma de consultoria para serviços de assessoria financeira.</p>
-                            <p>HTML • CSS &amp; SCSS • Javascript</p>
-                        </a>
-                    </li>
-                    <li class="carousel-slide">
-                        <a href="https://github.com/bizcommerce/vindi-magento2" target="_blank" rel="noopener" class="project-item">
-                            <h3>devLinks</h3>
-                            <p class="project-description">Um projeto para criar uma coleção de links úteis para desenvolvimento.</p>
-                            <p>Next.js • Framer • Drag &amp; Drop</p>
-                        </a>
-                    </li>
-                </ul>
+                <ul class="carousel-track"></ul>
             </div>
             <button class="carousel-control next">&#10095;</button>
         </div>
     </section>
 
+    <!-- Education -->
     <section class="education">
         <h2>Education</h2>
-        <div class="education-item">
-            <div class="education-date">2014 - 2017</div>
-            <h3>Analysis and Systems Development</h3>
-            <p>Fatec Garça</p>
-        </div>
+        <div id="education-content"></div>
     </section>
 
+    <!-- Contact -->
     <section id="contact" class="contact">
         <h2>Contact</h2>
         <p>Feel free to reach out for collaborations or opportunities.</p>
